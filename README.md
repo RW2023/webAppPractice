@@ -1,17 +1,17 @@
-React Practice Repository
+# **Practice React Repository**
 
-This repository is created for the purpose of practicing with React framework. It contains various code snippets and sample projects built with React.
-Getting Started
+Welcome to the Practice React Repository! This repo contains the class material for a react boot-camp I am enrolled in.
 
-Since this is a practice Repo I wouldnt really clone this. By the time anyone reeds this other than me I am sure there will be other stand alone projects you can clone :) 
+**Note:** *This is a practice repository and is not intended for forking or cloning. Instead, please check out some of the finished projects featured on my profile for examples of completed React projects.*
 
-If i am working on another project I will create another repo for that project
+## <u>Contributing</u>
 
+While contributions to this repository are not encouraged, if you notice any errors or have suggestions for improvement, please feel free to submit a pull request. Contributions that fix errors or provide examples of how something can be improved are welcome. Keeping it real...? School me directly with a pull request. It will help me practice and it's a good way to communicate to me and show me something directly and specifically. I love git and github :) 
 
-This repository contains a single project built with React. It is am ongoing tutorial and the commits serve as my notes as I learn. 
+Please note that this repository is intended for practice only, so major feature additions or changes are not being accepted at this time. First because it would be weird.. second see above :) 
 
-Contributing
+## Support
 
-if you see any mistakes in the notes on my commits or code errors (or both) please submit a pull request and school me. 
+If you need any help or have any questions about the Practice React Repository, please feel free to contact me through my profile.
 
-This repository is licensed under the MIT license. See the LICENSE file for more details.
+Happy practicing!
