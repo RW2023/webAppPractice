@@ -1,5 +1,8 @@
 # **Practice React Repository**
-<img src="https://github.com/RW2023/webAppPractice/blob/f02a1055af076454f4fa526ca2ffbf4490bbccd5/monsters-rolodex/public/logo192.png" alt="" >
+<p align="center">
+  <img src="https://github.com/RW2023/webAppPractice/blob/f02a1055af076454f4fa526ca2ffbf4490bbccd5/monsters-rolodex/public/logo192.png" alt="Logo">
+</p>
+
 Welcome to the Practice React Repository! This repo contains the class material for a react boot-camp I am enrolled in.
 
 **Note:** *This is a practice repository and is not intended for forking or cloning. Instead, please check out some of the finished projects featured on my profile for examples of completed React projects.*
