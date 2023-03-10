@@ -42,7 +42,6 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             My name is {this.state.name.firstName} {this.state.name.lastName}{" "}
-            {/* Fixed: access first and last name from name object */}
           </p>
           <button onClick={this.handleClick}>{this.state.buttonText}</button>
 
