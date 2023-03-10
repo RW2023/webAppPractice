@@ -5,6 +5,8 @@ Getting Started
 
 Since this is a practice Repo I wouldnt really clone this. By the time anyone reeds this other than me I am sure there will be other stand alone projects you can clone :) 
 
+If i am working on another project I will create another repo for that project
+
 
 This repository contains a single project built with React. It is am ongoing tutorial and the commits serve as my notes as I learn. 
 
