@@ -9,8 +9,6 @@ class App extends Component {
     this.state = {
       firstName: "Ryan",
       lastName: "Wilson",
-      firstName: "Ryan",
-      lastName: "Wilson",
       content: "React Professional",
       isPro: true,
     };
