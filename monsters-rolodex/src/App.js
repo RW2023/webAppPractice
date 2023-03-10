@@ -25,6 +25,8 @@ class App extends Component {
         content: prevState.isPro ? "React Code Warlock!" : "React Professional",
         buttonText: prevState.isPro ? "Back to Pro!" : "ProMode",
         isPro: !prevState.isPro,
+
+
       }),
       () => {
         if (this.state.buttonText === "ProMode") {
