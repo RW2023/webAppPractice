@@ -21,7 +21,6 @@ class App extends Component {
             My name is {this.state.firstName} {this.state.lastName}
           </p>
           <button onClick={() =>{}}>Change Name</button>
-           <h2>{this.state.name}</h2>
            <p>React Wizard</p>
         </header>
       </div>
