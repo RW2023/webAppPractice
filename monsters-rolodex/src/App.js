@@ -24,8 +24,18 @@ class App extends Component {
           <p>
             My name is {this.state.firstName} {this.state.lastName}
           </p>
-          <button onClick={() =>{}}>Change Name</button>
-           <p>React Wizard</p>
+          <button
+            onClick={() => {
+              this.setState({
+                firstName: "The",
+                lastName: "Dread",
+                content: "Code Warlock",
+              });
+            }}
+          >
+            Keep it Real!
+          </button>
+          <p>{this.state.content}</p>
         </header>
       </div>
     );
