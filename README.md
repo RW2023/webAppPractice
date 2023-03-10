@@ -1,4 +1,4 @@
-# **Practice React Repository**
+ <h1 align="center">Practice React Repository</h1>
 <p align="center">
   <img src="https://github.com/RW2023/webAppPractice/blob/f02a1055af076454f4fa526ca2ffbf4490bbccd5/monsters-rolodex/public/logo192.png" alt="Logo">
 </p>
