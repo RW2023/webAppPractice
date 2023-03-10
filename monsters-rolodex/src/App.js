@@ -7,7 +7,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: 'Ryan'
+      firstName: 'Ryan',
+      lastName: 'Wilson'
     }
 
   }
@@ -17,17 +18,11 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Yow Yow {this.state.name}! Wah a gwaan man!
+            My name is {this.state.firstName} {this.state.lastName}
           </p>
-          <button>Change Name</button>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <button onClick={() =>{}}>Change Name</button>
+           <h2>{this.state.name}</h2>
+           <p>React Wizard</p>
         </header>
       </div>
     );
