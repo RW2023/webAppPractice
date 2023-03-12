@@ -8,8 +8,7 @@ class App extends Component {
     super();
     this.state = {
       name: { firstName: "Ryan", lastName: "Wilson" },
-      tagline: "React Apprentice"
-      //removed the comma here
+      tagline: "React Apprentice",
     };
   }
 
@@ -23,14 +22,22 @@ class App extends Component {
           </p>
           <button
             onClick={() => {
-              this.setState({
-                name: { firstName: "RE", lastName: "Wilson" },
-              });
+              this.setState(
+                () => {
+                  return {
+                    name: { firstName: "RE", lastName: "Wilson" },
+                    tagline: "",
+                  };
+                },
+                () => {
+                  console.log(this.state);
+                }
+              );
             }}
           >
             Change Name
           </button>
-          <p>I don't work at ZTM</p>
+          <p>{this.state.tagline}</p>
         </header>
       </div>
     );
