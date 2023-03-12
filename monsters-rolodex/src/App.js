@@ -8,20 +8,24 @@ class App extends Component {
     super();
     this.state = {
      monster1: {
-      name: 'linda'
+      name: 'Linda'
      },
      monster2:{
-      name: 'frank'
+      name: 'Frank'
      },
      monster3:{
-      name: 'jacky'
+      name: 'Jacky'
      }
     };
   }
 
   render() {
     return (
-      <div className="App"></div>
+      <div className="App">
+        <h1>{this.state.monster1.name}</h1>
+        <h1>{this.state.monster2.name}</h1>
+        <h1>{this.state.monster3.name}</h1>
+      </div>
     );
   }
 }
