@@ -25,7 +25,7 @@ class App extends Component {
           <button onClick={() =>{
             this.setState(()=>{});
           }}>Change Name</button>
-           <p>React Wizard</p>
+           <p>React Apprentice</p>
         </header>
       </div>
     );
