@@ -24,6 +24,7 @@ class App extends Component {
             onClick={() => {
               this.setState({
                 name: { firstName: "RE", lastName: "Wilson" },
+                tagline: ''
               });
             }}
           >
