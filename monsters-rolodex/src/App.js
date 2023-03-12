@@ -14,32 +14,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            My name is {this.state.name.firstName} {this.state.name.lastName}
-          </p>
-          <button
-            onClick={() => {
-              this.setState(
-                () => {
-                  return {
-                    name: { firstName: "RE", lastName: "Wilson" },
-                    tagline: "",
-                  };
-                },
-                () => {
-                  console.table(this.state);
-                }
-              );
-            }}
-          >
-            Change Name
-          </button>
-          <p>{this.state.tagline}</p>
-        </header>
-      </div>
+      <div className="App"></div>
     );
   }
 }
