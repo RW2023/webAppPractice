@@ -7,8 +7,15 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: { firstName: "Ryan", lastName: "Wilson" },
-      tagline: "React Apprentice",
+     monster1: {
+      name: 'linda'
+     },
+     monster2:{
+      name: 'frank'
+     },
+     monster3:{
+      name: 'jacky'
+     }
     };
   }
 
