@@ -17,11 +17,11 @@ class App extends Component {
           id: "fGhIj",
         },
         {
-          name: "Jacky",
+          name: "Melanie",
           id: "pQrSt",
         },
 
-        { name: "Andrei",
+        { name: "Dominic",
           id: "p85St",
       },
         
