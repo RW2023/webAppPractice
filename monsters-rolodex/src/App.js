@@ -8,7 +8,8 @@ class App extends Component {
     super();
     this.state = {
       name: { firstName: "Ryan", lastName: "Wilson" },
-      tagline: "React Apprentice",
+      tagline: "React Apprentice"
+      //removed the comma here
     };
   }
 
