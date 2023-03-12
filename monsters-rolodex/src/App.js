@@ -23,7 +23,8 @@ class App extends Component {
             My name is {this.state.firstName} {this.state.lastName}
           </p>
           <button onClick={() =>{
-            this.setState(()=>{});
+            this.setState(()=>{}, ()=>{})
+            console.log(this.state);
           }}>Change Name</button>
            <p>React Apprentice</p>
         </header>
