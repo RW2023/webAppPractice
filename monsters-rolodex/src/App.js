@@ -8,6 +8,7 @@ class App extends Component {
     super();
     this.state = {
       name: { firstName: "Ryan", lastName: "Wilson" },
+      tagline: "React Apprentice",
     };
   }
 
@@ -28,7 +29,7 @@ class App extends Component {
           >
             Change Name
           </button>
-          <p>React Apprentice</p>
+          <p>{this.state.tagline}</p>
         </header>
       </div>
     );
