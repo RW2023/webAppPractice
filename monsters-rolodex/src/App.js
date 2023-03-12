@@ -7,10 +7,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      firstName: "Ryan",
-      lastName: "Wilson",
-      content: "React Professional",
-      isPro: true,
+      name: { firstName: "Ryan",
+      lastName: "Wilson",}
     };
 
   }
@@ -23,8 +21,9 @@ class App extends Component {
             My name is {this.state.firstName} {this.state.lastName}
           </p>
           <button onClick={() =>{
-            this.setState(()=>{}, ()=>{})
-            console.log(this.state);
+            this.setState()
+            return
+            // console.log(this.state);
           }}>Change Name</button>
            <p>React Apprentice</p>
         </header>
