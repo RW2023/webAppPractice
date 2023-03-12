@@ -24,13 +24,12 @@ class App extends Component {
             onClick={() => {
               this.setState({
                 name: { firstName: "RE", lastName: "Wilson" },
-                tagline: ''
               });
             }}
           >
             Change Name
           </button>
-          <p>{this.state.tagline}</p>
+          <p>I don't work at ZTM</p>
         </header>
       </div>
     );
