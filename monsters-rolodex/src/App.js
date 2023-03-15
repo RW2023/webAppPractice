@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class App extends Component {
   constructor() {
@@ -12,39 +12,31 @@ class App extends Component {
 
   componentDidMount() {
     console.log('componentDidMount');
-    fetch('https://jsonplaceholder.typicode.com/users')
+    fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => response.json())
       .then((users) =>
-        this.setState(
-          () => {
-            return { monsters: users };
-          },
-          () => {
-            console.log(this.state);
-          },
-        ),
-      );
+        this.setState(()=>{
+        return { monsters: users };  
+        },
+        ()=>{
+          console.log(this.state);
+        }
+      ));
   }
 
   render() {
     console.log('render');
     return (
       <div className="App">
-        <input
-          className="search-box"
-          type="search"
-          placeholder="search monsters"
-          onChange={(event) => {
-            console.log({ startingArray: this.State.monsters });
-            const searchString = event.target.value.toLowerCase();
-            const filteredMonsters = this.state.monsters.filter((monster) => {
-              return monster.name.toLowerCase().includes(searchString);
-            });
-            this.setState(() => {
-              return { monsters: filteredMonsters };
-            });
-          }}
-        />
+        <input className="search-box" type= "search" placeholder="search monsters" onChange={(event)=>{
+          console.log(event.target.value);
+          const filteredMonsters = this.state.monsters.filter((monster)=>{
+return monster.name.includes(event.target.value);
+          });
+          this.setState(()=>{
+            return{monsters: filteredMonsters}
+          })
+        }}/>
         {this.state.monsters.map((monster) => {
           return (
             <div key={monster.id}>
