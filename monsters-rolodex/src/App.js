@@ -32,7 +32,7 @@ class App extends Component {
           console.log(event.target.value);
           const searchString = event.target.value.toLowerCase();
           const filteredMonsters = this.state.monsters.filter((monster)=>{
-return monster.name.includes(event.target.value);
+return monster.name.toLowerCase.includes(event.target.value);
           });
           this.setState(()=>{
             return{monsters: filteredMonsters}
