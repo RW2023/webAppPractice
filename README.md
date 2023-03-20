@@ -18,3 +18,5 @@ Please note that this repository is intended for practice only, so major feature
 If you need any help or have any questions about the Practice React Repository, please feel free to contact me through my profile.
 
 Happy practicing!
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/26264d79-6c10-40e2-82ab-2089067410be/deploy-status)](https://app.netlify.com/sites/webapppractice/deploys)
