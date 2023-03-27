@@ -35,7 +35,7 @@ class App extends Component {
       <div className="App">
         <input className="search-box" type="search" placeholder="search monsters" onChange={(event) => {
           console.log(event.target.value);
-          const searchString = event.target.value.toLowerCase();
+          const searchField = event.target.value.toLowerCase();
 
           this.setState(() => {
             return { searchField };
