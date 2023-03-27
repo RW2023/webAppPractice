@@ -6,7 +6,7 @@ class App extends Component {
     super();
     this.state = {
       monsters: [],
-      searchString: ""
+      searchField: ""
     };
     console.log('constructor');
   }
